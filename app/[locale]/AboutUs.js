@@ -1,7 +1,7 @@
-import { Button } from "@/components/ui/button";
-import { cn } from "@/lib/utils";
+import { Button } from "../../components/ui/button";
+import { cn } from "../../lib/utils";
 import Image from "next/image";
-import abouUSImage from "@/public/images/about-us-image.png";
+import abouUSImage from "../../public/images/about-us-image.png";
 
 const AboutUs = () => {
   return (

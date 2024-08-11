@@ -1,4 +1,4 @@
-import TeamCard from "@/components/TeamCard";
+import TeamCard from "../../components/TeamCard";
 
 const ROLES = [
   { id: 1, title: "Design", icon: "/icons/icon-1.png" },

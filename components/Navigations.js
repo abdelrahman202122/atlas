@@ -4,7 +4,7 @@ import {
   NavigationMenuLink,
   NavigationMenuList,
   navigationMenuTriggerStyle,
-} from "@/components/ui/navigation-menu";
+} from "../components/ui/navigation-menu";
 import Link from "next/link";
 
 const Navigations = () => {

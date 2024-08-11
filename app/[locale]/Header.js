@@ -1,7 +1,7 @@
-import Logo from "@/components/Logo";
-import Navigations from "@/components/Navigations";
-import HeaderButtons from "@/components/HeaderButtons";
-import HamMenu from "@/components/HamMenu";
+import Logo from "../../components/Logo";
+import Navigations from "../../components/Navigations";
+import HeaderButtons from "../../components/HeaderButtons";
+import HamMenu from "../../components/HamMenu";
 
 const Header = () => {
   return (

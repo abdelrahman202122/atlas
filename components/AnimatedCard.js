@@ -5,8 +5,8 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
-import { cn } from "@/lib/utils";
+} from "./ui/card";
+import { cn } from "../lib/utils";
 import Image from "next/image";
 
 const AnimatedCard = ({ title, image }) => {
