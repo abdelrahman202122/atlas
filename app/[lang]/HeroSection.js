@@ -2,8 +2,10 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { cn } from "@/lib/utils";
 import Image from "next/image";
+import { getDictionary } from "./locals";
 
-const HeroSection = () => {
+const HeroSection = async ({ lang }) => {
+  const dict = await getDictionary(lang);
   return (
     <main className="relative h-screen w-full flex flex-col justify-center px-40 ">
       <Image src="/images/hero-image.png" alt="hero" fill />
@@ -12,7 +14,7 @@ const HeroSection = () => {
           We create your <span className="text-secondary">digital feature</span>
         </h1>
         <Button variant="outline" className={cn("rounded-full px-20")}>
-          Discover More
+          {dict.discover}
         </Button>
         <div className="flex w-full max-w-sm items-center space-x-2">
           <Input
